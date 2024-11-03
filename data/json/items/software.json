@@ -5,7 +5,7 @@
     "name": { "str_sp": "software" },
     "symbol": "#",
     "container": "usb_drive",
-    "description": { "str": "IF YOU ARE SEEING THIS IT IS A BUG.", "//~": "NO_I18N" },
+    "description": "IF YOU ARE SEEING THIS IT IS A BUG.",
     "flags": [ "IRREMOVABLE", "NO_DROP" ]
   },
   {

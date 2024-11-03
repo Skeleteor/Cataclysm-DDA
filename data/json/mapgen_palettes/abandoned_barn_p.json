@@ -40,7 +40,7 @@
       "t": "t_region_tree",
       "T": "t_dirtfloor",
       "u": "t_dirtfloor",
-      "v": "t_fence",
+      "v": "t_fence_h",
       "Q": "t_bulk_tank",
       "w": "t_window_boarded_noglass",
       "W": "t_window",

@@ -157,7 +157,7 @@
         "pppppw1_2_3_M__H_H_H_Hw'",
         "pppppw1_2_3_M__H_H_H_Hw'",
         "'D'D'w1_2_3_M__H_H_H_Hw'",
-        "'''''wwwwwwwwwwwwwwwwww'",
+        "'''''WWWWWWWWWWWWWWWWWW'",
         "''''''''''''''''''''''''"
       ],
       "terrain": {
@@ -175,9 +175,10 @@
         "1": "t_concrete",
         "2": "t_concrete",
         "3": "t_concrete",
+        "W": "t_chainfence_h",
         "_": "t_concrete",
         "p": "t_pavement",
-        "w": "t_chainfence",
+        "w": "t_chainfence_v",
         "|": "t_chaingate_c",
         "~": "t_sidewalk",
         "4": "t_gutter_downspout"
@@ -278,7 +279,7 @@
       "fill_ter": "t_thconc_floor",
       "rows": [
         "**~~~***~~~*************",
-        "*w^^^ww|-:-=========--|*",
+        "*W^^^WW|-:-=========--|*",
         "*w~~~%~|..............|*",
         "*w~~~v~|..............|*",
         "*w~~~v~|..l%..l%..l%..|*",
@@ -299,7 +300,7 @@
         "*wr~~r~|---|..]..]..].|*",
         "*wr~~r~|tsu|..]..]..].|*",
         "*w~~~~~|...+..........|4",
-        "*wwwwww|---|----------|*",
+        "*WWWWWW|---|----------|*",
         "************************"
       ],
       "terrain": {
@@ -309,10 +310,11 @@
         ".": "t_thconc_floor",
         ":": "t_door_glass_c",
         "=": "t_wall_glass",
+        "W": "t_chainfence_h",
         "^": "t_chaingate_c",
         "r": "t_concrete",
         "v": "t_concrete",
-        "w": "t_chainfence",
+        "w": "t_chainfence_v",
         "|": "t_wall_w",
         "~": "t_concrete",
         "4": "t_gutter_downspout"
@@ -413,7 +415,7 @@
       "fill_ter": "t_thconc_floor",
       "rows": [
         "***~~~~~~~~~~~~~~~~~~***",
-        "***wwwwwwww^^wwwwwwww***",
+        "***WWWWWWWW^^WWWWWWWW***",
         "***w~~~~~~~~~~~~~~~~w***",
         "***w~~~~~~~~~~~~~~~~w***",
         "***w~~~~~~~~~~~~~~~~w***",
@@ -443,8 +445,9 @@
         "-": "t_wall_w",
         ".": "t_thconc_floor",
         "=": "t_window",
+        "W": "t_chainfence_h",
         "^": "t_chaingate_c",
-        "w": "t_chainfence",
+        "w": "t_chainfence_v",
         "|": "t_wall_w",
         "~": "t_concrete",
         "4": "t_gutter_downspout"

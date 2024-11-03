@@ -283,7 +283,7 @@
         "          ",
         "          "
       ],
-      "terrain": { "w": "t_zebra" },
+      "terrain": { "w": "t_zebra_h" },
       "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
     }
   },

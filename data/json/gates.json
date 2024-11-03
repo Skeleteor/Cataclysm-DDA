@@ -2,6 +2,7 @@
   {
     "type": "gate",
     "id": "t_gates_mech_control",
+    "alias": [ "t_gates_control_concrete", "t_gates_control_brick" ],
     "door": "t_door_metal_locked",
     "floor": "t_floor",
     "//": "An empty walls list matches anything with a WALL flag, while a list only matches the listed entries",
@@ -17,18 +18,9 @@
   },
   {
     "type": "gate",
-    "id": "t_gates_control_concrete",
-    "copy-from": "t_gates_mech_control"
-  },
-  {
-    "type": "gate",
-    "id": "t_gates_control_brick",
-    "copy-from": "t_gates_mech_control"
-  },
-  {
-    "type": "gate",
     "id": "t_gates_mech_control_lab",
-    "copy-from": "t_gates_mech_control",
+    "alias": [ "t_gates_control_concrete_lab", "t_gates_control_brick_lab" ],
+    "door": "t_door_metal_locked",
     "floor": "t_thconc_floor",
     "walls": [  ],
     "messages": {
@@ -39,16 +31,6 @@
     },
     "moves": 1800,
     "bashing_damage": 40
-  },
-  {
-    "type": "gate",
-    "id": "t_gates_control_concrete_lab",
-    "copy-from": "t_gates_mech_control_lab"
-  },
-  {
-    "type": "gate",
-    "id": "t_gates_control_brick_lab",
-    "copy-from": "t_gates_mech_control_lab"
   },
   {
     "type": "gate",

@@ -30,7 +30,7 @@
       "|": "t_brick_wall",
       "!": "t_door_glass_c",
       "=": "t_wall_glass",
-      "#": "t_railing",
+      "#": "t_railing_h",
       "v": "t_window"
     },
     "furniture": {

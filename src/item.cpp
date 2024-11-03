@@ -13333,9 +13333,8 @@ bool item::process_corpse( map &here, Character *carrier, const tripoint &pos )
 
 bool item::process_fake_mill( map &here, Character * /*carrier*/, const tripoint &pos )
 {
-    const furn_id &f = here.furn( pos );
-    if( f != furn_f_wind_mill_active &&
-        f != furn_f_water_mill_active ) {
+    if( here.furn( pos ) != furn_f_wind_mill_active &&
+        here.furn( pos ) != furn_f_water_mill_active ) {
         item_counter = 0;
         return true; //destroy fake mill
     }
@@ -13349,9 +13348,8 @@ bool item::process_fake_mill( map &here, Character * /*carrier*/, const tripoint
 
 bool item::process_fake_smoke( map &here, Character * /*carrier*/, const tripoint &pos )
 {
-    const furn_id &f = here.furn( pos );
-    if( f != furn_f_smoking_rack_active &&
-        f != furn_f_metal_smoking_rack_active ) {
+    if( here.furn( pos ) != furn_f_smoking_rack_active &&
+        here.furn( pos ) != furn_f_metal_smoking_rack_active ) {
         item_counter = 0;
         return true; //destroy fake smoke
     }
